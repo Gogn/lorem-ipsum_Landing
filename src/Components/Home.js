@@ -3,6 +3,8 @@ import '../index.css'
 import {Content} from "./Content";
 import {Navbar} from "./UI/Navbar";
 import {Header} from "./Header";
+import {Commercial} from "./Commercial";
+import {Footer} from "./Footer";
 
 export const Home = () => {
   return (
@@ -17,6 +19,8 @@ export const Home = () => {
       <div className="wrapper">
         <Content/>
       </div>
+      <Commercial/>
+      <Footer/>
     </div>
   )
 }
