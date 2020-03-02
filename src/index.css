@@ -74,6 +74,7 @@ ul li {
 }
 
 .header {
+  padding-top: 8em;
   /*height: 100%;*/
   width: 100%;
   background: url("/img/00.jpg") no-repeat;
@@ -97,9 +98,14 @@ ul li {
 }
 
 .navbar {
+  margin-top: 1em;
+  position: absolute;
+  width: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10em;
+  color: #fff;
 }
 
 .nav {

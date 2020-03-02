@@ -9,12 +9,12 @@ import {Footer} from "./Footer";
 export const Home = () => {
   return (
     <div className='home'>
-      <div className='header'>
-        <div className="wrapper">
+      {/*<div className='header'>*/}
+      {/*  <div className="wrapper">*/}
           <Navbar/>
           <Header/>
-        </div>
-      </div>
+        {/*</div>*/}
+      {/*</div>*/}
       <h2>Второй блок</h2>
       <div className="wrapper">
         <Content/>
