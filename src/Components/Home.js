@@ -22,7 +22,9 @@ export const Home = () => {
         <Content isDesktop = {isDesktopOrLaptop}/>
       </div>
       <Commercial isDesktop = {isDesktopOrLaptop}/>
+      <div className="wrapper">
       <Footer/>
+      </div>
     </div>
   )
 }
