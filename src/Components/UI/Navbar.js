@@ -1,7 +1,8 @@
 import React from 'react'
 import '../../index.css'
+import {useMediaQuery} from 'react-responsive'
 
-export const Navbar = () => {
+export const Navbar = ({isDesktop}) => {
   return (
     <div>
       <div className="wrapper">
@@ -12,13 +13,19 @@ export const Navbar = () => {
             </a>
           </div>
           <div className="nav">
-            <div className="nav-elem">
-              <a href="/">8 499 999 99 99</a>
+
+            {isDesktop &&
+            <div>
+              <div className="nav-elem">
+                <a href="/">8 499 999 99 99</a>
+              </div>
+              <div className="nav-elem">
+                <p>In</p>
+                <p>Vk</p>
+              </div>
             </div>
-            <div className="nav-elem">
-              <p>In</p>
-              <p>Vk</p>
-            </div>
+            }
+
             <p>Men</p>
           </div>
         </div>
