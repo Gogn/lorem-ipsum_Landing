@@ -3,8 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {Card} from "./UI/Card";
+import {ButtonSmall} from "./UI/ButtonSmall";
 
-export const Commercial = () => {
+export const Commercial = ({isDesktop}) => {
 
   const companies = [
     {
@@ -33,18 +34,33 @@ export const Commercial = () => {
 
     <div className='commercial'>
       <div className='wrapper'>
-      <h2>Третий блок</h2>
-      <div className="flex-content">
+        <h2>Третий блок</h2>
 
-      {companies.map((company) => (
-      <Card company={company}/>
-      ))}
-        {companies.map((company) => (
-          <Card company={company}/>
-        ))}
+        {!isDesktop &&
+        <div className='flex-row-content flex-wrap flex-justify-center' style={{marginBottom: '34px'}}>
+          <div className='button-year'><ButtonSmall text={'2019'}/></div>
+          <div className='button-year'><ButtonSmall text={'2018'}/></div>
+          <div className='button-year'><ButtonSmall text={'2017'}/></div>
+          <div className='button-year'><ButtonSmall text={'2016'}/></div>
+          <div className='button-year'><ButtonSmall text={'2015'}/></div>
+          <div className='button-year'><ButtonSmall text={'2014'}/></div>
+          <div className='button-year'><ButtonSmall text={'2013'}/></div>
+          <div className='button-year'><ButtonSmall text={'2012'}/></div>
+          <div className='button-year'><ButtonSmall text={'2011'}/></div>
+        </div>
+        }
 
+        <div className="flex-content">
+
+          {companies.map((company) => (
+            <Card company={company}/>
+          ))}
+          {companies.map((company) => (
+            <Card company={company}/>
+          ))}
+
+        </div>
       </div>
-    </div>
     </div>
   )
 }

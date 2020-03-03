@@ -19,9 +19,9 @@ export const Home = () => {
           <Header isDesktop = {isDesktopOrLaptop}/>
       <h2>Второй блок</h2>
       <div className="wrapper">
-        <Content/>
+        <Content isDesktop = {isDesktopOrLaptop}/>
       </div>
-      <Commercial/>
+      <Commercial isDesktop = {isDesktopOrLaptop}/>
       <Footer/>
     </div>
   )
