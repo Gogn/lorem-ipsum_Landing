@@ -17,7 +17,7 @@ export const Header = ({isDesktop}) => {
             <h1 style={{order: 1}}>lorem ipsum dolor sit amet</h1>
             <p className='headline' style={{order: 2}}>lorem <span>ipsum dolor sit amet</span></p>
             <ul style={orderUl}>
-              <li> <img src="/img/1st.svg" alt="1st"/> &nbsp; <img src="/img/planet.svg" alt="planet"/> <span>lorem ipsum dol</span></li>
+              <li> <img src="/img/1st.svg" alt="1st"/> &nbsp; <img src="/img/planet.svg" alt="planet"/> <span className='span-main'>lorem ipsum dol</span></li>
               <li> <img src="/img/2st.svg" alt="2st"/> &nbsp; <img src="/img/eu.svg" alt="eu"/> <span>lorem ipsum</span></li>
               <li> <img src="/img/3st.svg" alt="3st"/> &nbsp; <img src="/img/eu.svg" alt="eu"/> <span>lorem ipsum dolor sit amet</span></li>
               <li> <img src="/img/2st.svg" alt="2st"/> &nbsp; <img src="/img/rus.svg" alt="rus"/> <span>lorem ipsum</span></li>

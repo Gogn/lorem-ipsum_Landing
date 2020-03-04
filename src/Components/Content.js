@@ -1,5 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import '../index.css'
 import LeftBracket from "./UI/svg/LeftBracket.svg.js";
 import RightBracket from "./UI/svg/RightBracket.svg.js";
@@ -8,25 +10,31 @@ import {ButtonSmall} from "./UI/ButtonSmall";
 export const Content = ({isDesktop}) => {
   const settings = {
     dots: true,
-    dotsClass: 'slick-dots',
+    dotsClass: 'slider-paging-number',
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // adaptiveHeight: true
+    arrows: true,
+    customPaging: i => (
+      <div>
+        {i}<span style={{marginLeft: "auto"}}>&nbsp;из&nbsp;5</span>
+      </div>
+    )
   };
   return (
     <>
       {
         isDesktop ?
-          <div className='flex-row-content'>
-            <div>
+          <div className='flex-row-content' style={{marginTop: '60px'}}>
+            <div style={{marginBottom: '12%'}}>
               <LeftBracket/>
             </div>
-            <Slider {...settings} className='slider'>
+            <div className='slider'>
+            <Slider {...settings} >
               <div>
-                <div className="flex-row-content">
-                  <div>
+                <div className="flex-row-content content">
+                  <div style={{maxWidth: '50%'}}>
                     <h2>Лоремова</h2>
                     <h3>ипсума анатольевна</h3>
                     <span className='content__span'>lorem ipsum dolor</span>
@@ -56,7 +64,7 @@ export const Content = ({isDesktop}) => {
                 </div>
               </div>
 
-              <div>
+              <div style={{maxWidth: '50%'}}>
                 <div className="flex-row-content">
                   <div>
                     <h2>Картошка</h2>
@@ -101,7 +109,8 @@ export const Content = ({isDesktop}) => {
               </div>
 
             </Slider>
-            <div>
+            </div>
+            <div style={{marginBottom: '12%'}}>
               <RightBracket/>
             </div>
           </div>

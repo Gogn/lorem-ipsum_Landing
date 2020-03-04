@@ -34,7 +34,7 @@ export const Commercial = ({isDesktop}) => {
 
     <div className='commercial'>
       <div className='wrapper'>
-        <h2>Третий блок</h2>
+        <h2 style={{textAlign: 'center'}}>Третий блок</h2>
 
         {!isDesktop &&
         <div className='flex-row-content flex-wrap flex-justify-center' style={{marginBottom: '34px'}}>
@@ -50,7 +50,7 @@ export const Commercial = ({isDesktop}) => {
         </div>
         }
 
-        <div className="flex-content">
+        <div className="flex-content" style={{marginTop: "61px"}}>
 
           {companies.map((company) => (
             <Card company={company}/>

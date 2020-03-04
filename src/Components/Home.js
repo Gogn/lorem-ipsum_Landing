@@ -1,6 +1,6 @@
 import React from 'react'
 import '../index.css'
-import { useMediaQuery } from 'react-responsive'
+import {useMediaQuery} from 'react-responsive'
 import {Content} from "./Content";
 import {Navbar} from "./UI/Navbar";
 import {Header} from "./Header";
@@ -15,15 +15,15 @@ export const Home = () => {
 
   return (
     <div className='home'>
-          <Navbar/>
-          <Header isDesktop = {isDesktopOrLaptop}/>
-      <h2>Второй блок</h2>
+      <Navbar/>
+      <Header isDesktop={isDesktopOrLaptop}/>
+      <h2 style={{textAlign: 'center'}}>Второй блок</h2>
       <div className="wrapper">
-        <Content isDesktop = {isDesktopOrLaptop}/>
+        <Content isDesktop={isDesktopOrLaptop}/>
       </div>
-      <Commercial isDesktop = {isDesktopOrLaptop}/>
+      <Commercial isDesktop={isDesktopOrLaptop}/>
       <div className="wrapper">
-      <Footer/>
+        <Footer/>
       </div>
     </div>
   )

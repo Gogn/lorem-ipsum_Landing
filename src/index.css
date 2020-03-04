@@ -1,6 +1,3 @@
-:root {
-}
-
 @font-face {
   font-family: 'Bebas Neue';
   src: local('Bebas Neue Regular'), local('BebasNeueRegular'), url('./fonts/bebasneue/bebasneueregular.woff2') format('woff2'), url('./fonts/bebasneue/bebasneueregular.woff') format('woff'), url('./fonts/bebasneue/bebasneueregular.ttf') format('truetype');
@@ -12,6 +9,16 @@
   font-family: 'Museo Sans Cyrl';
   src: local('Museo Sans Cyrl 500'), local('MuseoSansCyrl-500'), url('./fonts/museosanscyrl/Museosanscyrl500.woff2') format('woff2'), url('./fonts/museosanscyrl/Museosanscyrl500.woff') format('woff'), url('./fonts/museosanscyrl/Museosanscyrl500.ttf') format('truetype');
   font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans 100 Thin';
+  src: url('./fonts/museosanscyrl/MuseoSansCyrl-100.eot');
+  src: url('./fonts/museosanscyrl/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/museosanscyrl/MuseoSansCyrl-100.woff') format('woff'),
+  url('./fonts/museosanscyrl/MuseoSansCyrl-100.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -37,16 +44,18 @@ h1 {
   line-height: 90px;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-top: 188px;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-family: Bebas Neue;
   font-size: 3.889em;
   line-height: 70px;
-  text-align: center;
+  /*text-align: center;*/
   text-transform: uppercase;
   color: #FF3754;
-  margin-top: 0rem;
+  margin-top: 80px;
   margin-bottom: 0;
   text-align: left;
 }
@@ -61,31 +70,21 @@ h3 {
   margin-bottom: 1rem;
 }
 
-.headline {
-  font-family: Museo Sans Cyrl;
-  font-size: 50px;
-  line-height: 60px;
-  color: #FF3754;
-}
-
-.headline span {
-  color: #fff
-}
-
 ul {
   list-style: none;
   padding: 0;
-  margin-bottom: 50px;
+  margin-bottom: 111px;
 }
 
 ul li {
-  margin-bottom: 2em;
+  margin-bottom: 40px;
   display: flex;
   align-items: center;
+  font-size: 24px;
 }
 
 ul li span {
-  margin-left: 13px;
+  margin-left: 52px;
 }
 
 .home {
@@ -98,11 +97,24 @@ ul li span {
   background: url("/img/00.jpg") no-repeat;
   color: #fff;
   position: absolute;
-  height: 100vh;
-  background-size: 100vh;
+  height: 960px;
+  /*background-size: 100%;*/
+}
+
+.headline {
+  font-family: Museo Sans Cyrl;
+  font-size: 50px;
+  line-height: 60px;
+  color: #FF3754;
+  margin-bottom: 51px;
+}
+
+.headline span {
+  color: #fff
 }
 
 .commercial {
+  padding-top: 1px;
   width: 100%;
   background: linear-gradient(180deg, #FDF4F4 0%, #ECF3EC 100%);
   /*display: flex;*/
@@ -162,7 +174,7 @@ ul li span {
 }
 
 .logo img {
-  max-width: 11.4vw;
+  max-width: 219px;
   height: auto;
 }
 
@@ -240,15 +252,23 @@ ul li span {
   width: 100%
 }
 
+.content {
+  margin-left: 96px;
+  margin-right: 96px;
+}
+
 .ul-content {
+  font-family: 'Museo Sans 100 Thin';
   margin-bottom: 31px;
   color: #000;
   font-size: 18px;
   line-height: 160%;
+  margin-left: 2px;
 }
 
 .ul-content li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0px;
+  font-size: 18px;
 }
 
 .ul-content li:before {
@@ -266,10 +286,20 @@ ul li span {
   margin-bottom: 40px;
 }
 
+.span-main {
+  font-size: 36px;
+  line-height: 43px;
+  background: #FF3754;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: bold;
+}
+
 p {
   margin-top: 0px;
   margin-bottom: 0;
   line-height: 160%;
+  color: #000
 }
 
 .card-title {
@@ -281,11 +311,71 @@ p {
 .content__p {
   margin-top: 0px;
   margin-bottom: 24px;
+  font-family: 'Museo Sans 100 Thin';
 }
 
 .slider {
   min-height: 0px;
   min-width: 0px;
+}
+
+.slider h2 {
+  margin-top: 0;
+}
+
+.slider .slick-next:before {
+  font-family: "Museo Sans Cyrl";
+  opacity: 100%;
+  font-size: 50px;
+  color: #888;
+}
+
+.slider .slick-prev:before {
+  font-family: "Museo Sans Cyrl";
+  opacity: 100%;
+  font-size: 50px;
+  color: #888;
+}
+
+.slider .slick-next {
+  top: 89%;
+  right: 45%;
+}
+
+.slider .slick-prev {
+  top: 89%;
+  left: 43%;
+}
+
+.slider .slick-prev:hover:before {
+  color: #FF3754;
+}
+
+.slider .slick-next:hover:before {
+  color: #FF3754;
+}
+
+.slider .slick-slider {
+  /*margin-top: 10% !important;*/
+}
+
+.slider .slider-paging-number {
+  list-style: none;
+}
+.slider ul {
+  text-align: center;
+  font-size: 24px;
+}
+.slider .slider-paging-number li {
+  display: none;
+  color: #000;
+}
+.slider .slider-paging-number li.slick-active {
+  display: inline-block;
+}
+.slider .slider-paging-number li button {
+  background: none;
+  border: none;
 }
 
 .flex-content {
@@ -382,6 +472,7 @@ p {
     width: 100vw;
     background-size: cover;
     height: 36vh;
+    /*background-size: 100%;*/
   }
 
   ul li {
