@@ -1,5 +1,4 @@
 import React from 'react'
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {Card} from "./UI/Card";
@@ -37,7 +36,7 @@ export const Commercial = ({isDesktop}) => {
         <h2 style={{textAlign: 'center'}}>Третий блок</h2>
 
         {!isDesktop &&
-        <div className='flex-row-content flex-wrap flex-justify-center' style={{marginBottom: '34px'}}>
+        <div className='flex-row-content flex-wrap flex-justify-center'>
           <div className='button-year'><ButtonSmall text={'2019'}/></div>
           <div className='button-year'><ButtonSmall text={'2018'}/></div>
           <div className='button-year'><ButtonSmall text={'2017'}/></div>
@@ -50,13 +49,13 @@ export const Commercial = ({isDesktop}) => {
         </div>
         }
 
-        <div className="flex-content" style={{marginTop: "61px"}}>
+        <div className="flex-content" style={{marginTop: "15px"}}>
 
-          {companies.map((company) => (
-            <Card company={company}/>
+          {companies.map((company, i) => (
+            <Card company={company} key={i}/>
           ))}
-          {companies.map((company) => (
-            <Card company={company}/>
+          {companies.map((company, i) => (
+            <Card company={company} key={i+1}/>
           ))}
 
         </div>

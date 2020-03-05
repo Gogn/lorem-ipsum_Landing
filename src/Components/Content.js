@@ -8,7 +8,15 @@ import RightBracket from "./UI/svg/RightBracket.svg.js";
 import {ButtonSmall} from "./UI/ButtonSmall";
 
 export const Content = ({isDesktop}) => {
+
+  const [display, setDisplay] = useState(true)
+
+  const displayHandler = () => {
+    setDisplay(!display)
+  }
+
   const settings = {
+    display: {display: 'none'},
     dots: true,
     dotsClass: 'slider-paging-number',
     infinite: true,
@@ -18,7 +26,7 @@ export const Content = ({isDesktop}) => {
     arrows: true,
     customPaging: i => (
       <div>
-        {i}<span style={{marginLeft: "auto"}}>&nbsp;из&nbsp;5</span>
+        {i}<span style={{marginLeft: "auto", fontSize: '24px'}}>&nbsp;из&nbsp;5</span>
       </div>
     )
   };
@@ -26,89 +34,89 @@ export const Content = ({isDesktop}) => {
     <>
       {
         isDesktop ?
-          <div className='flex-row-content' style={{marginTop: '60px'}}>
+          <div className='flex-row-content content-main'>
             <div style={{marginBottom: '12%'}}>
               <LeftBracket/>
             </div>
             <div className='slider'>
-            <Slider {...settings} >
-              <div>
-                <div className="flex-row-content content">
-                  <div style={{maxWidth: '50%'}}>
-                    <h2>Лоремова</h2>
-                    <h3>ипсума анатольевна</h3>
-                    <span className='content__span'>lorem ipsum dolor</span>
-                    <ul className="ul-content">
-                      <li>lorem ipsum dolor lorem ipsum</li>
-                      <li>lorem ipsum dolor</li>
-                      <li>lorem ipsum dolor lorem ipsum dolor</li>
-                      <li>lorem ipsum dolor</li>
-                      <li>lorem ipsum dolor</li>
-                      <li>lorem ipsum dolor</li>
-                    </ul>
-                    <div>
-                      <p style={{fontWeight: 'bold'}}>lorem ipsum dolor</p>
-                      <p className='content__p'>lorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum
-                        dolorlorem
-                        ipsum
-                        dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolor</p>
+              <Slider {...settings} >
+                <div>
+                  <div className="flex-row-content content">
+                    <div style={{maxWidth: '50%'}}>
+                      <h2>Лоремова</h2>
+                      <h3>ипсума анатольевна</h3>
+                      <span className='content__span'>lorem ipsum dolor</span>
+                      <ul className="ul-content">
+                        <li>lorem ipsum dolor lorem ipsum</li>
+                        <li>lorem ipsum dolor</li>
+                        <li>lorem ipsum dolor lorem ipsum dolor</li>
+                        <li>lorem ipsum dolor</li>
+                        <li>lorem ipsum dolor</li>
+                        <li>lorem ipsum dolor</li>
+                      </ul>
+                      <div>
+                        <p style={{fontWeight: 'bold'}}>lorem ipsum dolor</p>
+                        <p className='content__p'>lorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum
+                          dolorlorem
+                          ipsum
+                          dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolor</p>
+                      </div>
+                      <div>
+                        <p style={{fontWeight: 'bold'}}>lorem ipsum dolor</p>
+                        <p className='content__p'>lorem ipsum dolor lorem ipsum dolor</p>
+                      </div>
                     </div>
                     <div>
-                      <p style={{fontWeight: 'bold'}}>lorem ipsum dolor</p>
-                      <p className='content__p'>lorem ipsum dolor lorem ipsum dolor</p>
+                      <img src="/img/Ellipse%201.jpg" alt="" className="img-round"/>
                     </div>
-                  </div>
-                  <div>
-                    <img src="/img/Ellipse%201.jpg" alt="" className="img-round"/>
                   </div>
                 </div>
-              </div>
 
-              <div style={{maxWidth: '50%'}}>
-                <div className="flex-row-content">
-                  <div>
-                    <h2>Картошка</h2>
-                    <h3>Улыбачевна</h3>
-                    <span className='content__span'>lorem ipsum dolor</span>
-                    <ul className="ul-content">
-                      <li>фывlorem ipsum dolor lorem ipsum</li>
-                      <li>lвыфorem ipsum dolor</li>
-                      <li>фывlorem ipsum dolor lorem ipsum dolor</li>
-                      <li>выфlorem ipsum dolor</li>
-                      <li>фывlorem ipsum dolor</li>
-                      <li>выфlorem ipsum dolor</li>
-                    </ul>
+                <div style={{maxWidth: '50%'}}>
+                  <div className="flex-row-content">
                     <div>
-                      <p style={{fontWeight: 'bold'}}>lorem фыв ipsum dolor</p>
-                      <p className='content__p'>lorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum
-                        dolorlorem
-                        ipsum
-                        dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolor</p>
+                      <h2>Картошка</h2>
+                      <h3>Улыбачевна</h3>
+                      <span className='content__span'>lorem ipsum dolor</span>
+                      <ul className="ul-content">
+                        <li>фывlorem ipsum dolor lorem ipsum</li>
+                        <li>lвыфorem ipsum dolor</li>
+                        <li>фывlorem ipsum dolor lorem ipsum dolor</li>
+                        <li>выфlorem ipsum dolor</li>
+                        <li>фывlorem ipsum dolor</li>
+                        <li>выфlorem ipsum dolor</li>
+                      </ul>
+                      <div>
+                        <p style={{fontWeight: 'bold'}}>lorem фыв ipsum dolor</p>
+                        <p className='content__p'>lorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum
+                          dolorlorem
+                          ipsum
+                          dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolorlorem ipsum dolor</p>
+                      </div>
+                      <div>
+                        <p style={{fontWeight: 'bold'}}>lorem фыв ipsum dolor</p>
+                        <p className='content__p'>lorem ipsum dolor lorem ipsum dolor</p>
+                      </div>
                     </div>
                     <div>
-                      <p style={{fontWeight: 'bold'}}>lorem фыв ipsum dolor</p>
-                      <p className='content__p'>lorem ipsum dolor lorem ipsum dolor</p>
+                      <img src="/img/Ellipse%201.jpg" alt="" className="img-round"/>
                     </div>
-                  </div>
-                  <div>
-                    <img src="/img/Ellipse%201.jpg" alt="" className="img-round"/>
                   </div>
                 </div>
-              </div>
 
-              <div>
-                <p><h2>3</h2></p>
-              </div>
+                <div>
+                  <p><h2>3</h2></p>
+                </div>
 
-              <div>
-                <p><h2>Hire me</h2></p>
-              </div>
+                <div>
+                  <p><h2>Hire me</h2></p>
+                </div>
 
-              <div>
-                <p><h2>Works like a charm</h2></p>
-              </div>
+                <div>
+                  <p><h2>Works like a charm</h2></p>
+                </div>
 
-            </Slider>
+              </Slider>
             </div>
             <div style={{marginBottom: '12%'}}>
               <RightBracket/>
@@ -116,7 +124,7 @@ export const Content = ({isDesktop}) => {
           </div>
 
           :
-          <Slider {...settings} className='slider'>
+          <Slider {...settings} className='slider'  style={display === false ? {display: 'none'} : null }>
             <div>
               <div className="flex-column-content flex-align-center">
                 <img src="/img/Ellipse%201.jpg" alt="" className="img-round"/>
@@ -124,7 +132,9 @@ export const Content = ({isDesktop}) => {
                 <h3>ипсума анатольевна</h3>
                 <span className='content__span'>lorem ipsum dolor</span>
                 <div style={{width: '156px'}}>
-                <ButtonSmall text={'скрыть'}/>
+                  <div onClick={displayHandler}>
+                    <ButtonSmall text={'скрыть'}/>
+                  </div>
                 </div>
                 <ul className="ul-content">
                   <li>lorem ipsum dolor lorem ipsum</li>
@@ -146,13 +156,13 @@ export const Content = ({isDesktop}) => {
               </div>
             </div>
 
-              <div>
-                <p><h2>Hire me</h2></p>
-              </div>
+            <div>
+              <h2>qwe</h2>
+            </div>
 
-              <div>
-                <p><h2>Works like a charm</h2></p>
-              </div>
+            <div>
+              <h2>Works like a charm</h2>
+            </div>
 
           </Slider>
       }

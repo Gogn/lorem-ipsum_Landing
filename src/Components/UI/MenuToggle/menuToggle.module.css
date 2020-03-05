@@ -1,0 +1,39 @@
+.MenuToggle{
+  position: absolute;
+  top: 4vh;
+  left: 95vw;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  transition: opacity,left, .22s ease-in;
+  z-index: 100;
+  width: 38px;
+  height: 38px;
+}
+
+.MenuToggle:hover{
+  opacity: .7;
+}
+
+.open {
+  background: url("/img/openMenu.svg") no-repeat;;
+}
+
+.close {
+  margin-top: -10px;
+  background: url("/img/closeMenu.svg") no-repeat;;
+}
+
+@media screen and (max-width: 600px) {
+  .MenuToggle {
+    top: 2vh;
+    left: 73vw;
+  }
+
+  .close {
+    background: url("/img/closeMenu.svg") no-repeat;
+    background-size: 80%;
+    top: 40%;
+  }
+
+}
