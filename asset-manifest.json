@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lorem-ipsum_Landing/static/css/main.b9d28472.chunk.css",
-    "main.js": "/lorem-ipsum_Landing/static/js/main.0c67e333.chunk.js",
-    "main.js.map": "/lorem-ipsum_Landing/static/js/main.0c67e333.chunk.js.map",
+    "main.js": "/lorem-ipsum_Landing/static/js/main.0ee649a2.chunk.js",
+    "main.js.map": "/lorem-ipsum_Landing/static/js/main.0ee649a2.chunk.js.map",
     "runtime-main.js": "/lorem-ipsum_Landing/static/js/runtime-main.1e250e18.js",
     "runtime-main.js.map": "/lorem-ipsum_Landing/static/js/runtime-main.1e250e18.js.map",
     "static/css/2.d69ff295.chunk.css": "/lorem-ipsum_Landing/static/css/2.d69ff295.chunk.css",
     "static/js/2.5776a84e.chunk.js": "/lorem-ipsum_Landing/static/js/2.5776a84e.chunk.js",
     "static/js/2.5776a84e.chunk.js.map": "/lorem-ipsum_Landing/static/js/2.5776a84e.chunk.js.map",
     "index.html": "/lorem-ipsum_Landing/index.html",
-    "precache-manifest.9d74ae16ac78d9d9bd7dee6b316e760e.js": "/lorem-ipsum_Landing/precache-manifest.9d74ae16ac78d9d9bd7dee6b316e760e.js",
+    "precache-manifest.40bb67ea3d0fd1b78508152964e2d764.js": "/lorem-ipsum_Landing/precache-manifest.40bb67ea3d0fd1b78508152964e2d764.js",
     "service-worker.js": "/lorem-ipsum_Landing/service-worker.js",
     "static/css/2.d69ff295.chunk.css.map": "/lorem-ipsum_Landing/static/css/2.d69ff295.chunk.css.map",
     "static/css/main.b9d28472.chunk.css.map": "/lorem-ipsum_Landing/static/css/main.b9d28472.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.d69ff295.chunk.css",
     "static/js/2.5776a84e.chunk.js",
     "static/css/main.b9d28472.chunk.css",
-    "static/js/main.0c67e333.chunk.js"
+    "static/js/main.0ee649a2.chunk.js"
   ]
 }
