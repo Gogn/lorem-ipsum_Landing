@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/lorem-ipsum_Landing/static/css/main.afa9f609.chunk.css",
-    "main.js": "/lorem-ipsum_Landing/static/js/main.b4cbf155.chunk.js",
-    "main.js.map": "/lorem-ipsum_Landing/static/js/main.b4cbf155.chunk.js.map",
+    "main.js": "/lorem-ipsum_Landing/static/js/main.5782e818.chunk.js",
+    "main.js.map": "/lorem-ipsum_Landing/static/js/main.5782e818.chunk.js.map",
     "runtime-main.js": "/lorem-ipsum_Landing/static/js/runtime-main.1e250e18.js",
     "runtime-main.js.map": "/lorem-ipsum_Landing/static/js/runtime-main.1e250e18.js.map",
     "static/css/2.d69ff295.chunk.css": "/lorem-ipsum_Landing/static/css/2.d69ff295.chunk.css",
-    "static/js/2.cefb31cf.chunk.js": "/lorem-ipsum_Landing/static/js/2.cefb31cf.chunk.js",
-    "static/js/2.cefb31cf.chunk.js.map": "/lorem-ipsum_Landing/static/js/2.cefb31cf.chunk.js.map",
+    "static/js/2.5776a84e.chunk.js": "/lorem-ipsum_Landing/static/js/2.5776a84e.chunk.js",
+    "static/js/2.5776a84e.chunk.js.map": "/lorem-ipsum_Landing/static/js/2.5776a84e.chunk.js.map",
     "index.html": "/lorem-ipsum_Landing/index.html",
-    "precache-manifest.b346fb96afbd98655dfa689e405c14f9.js": "/lorem-ipsum_Landing/precache-manifest.b346fb96afbd98655dfa689e405c14f9.js",
+    "precache-manifest.d7af0903e1fd51e58f771021cf6c1a7e.js": "/lorem-ipsum_Landing/precache-manifest.d7af0903e1fd51e58f771021cf6c1a7e.js",
     "service-worker.js": "/lorem-ipsum_Landing/service-worker.js",
     "static/css/2.d69ff295.chunk.css.map": "/lorem-ipsum_Landing/static/css/2.d69ff295.chunk.css.map",
     "static/css/main.afa9f609.chunk.css.map": "/lorem-ipsum_Landing/static/css/main.afa9f609.chunk.css.map",
-    "static/js/2.cefb31cf.chunk.js.LICENSE.txt": "/lorem-ipsum_Landing/static/js/2.cefb31cf.chunk.js.LICENSE.txt",
+    "static/js/2.5776a84e.chunk.js.LICENSE.txt": "/lorem-ipsum_Landing/static/js/2.5776a84e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/lorem-ipsum_Landing/static/media/bebasneueregular.a7c6c96b.woff2",
     "static/media/slick-theme.css": "/lorem-ipsum_Landing/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1e250e18.js",
     "static/css/2.d69ff295.chunk.css",
-    "static/js/2.cefb31cf.chunk.js",
+    "static/js/2.5776a84e.chunk.js",
     "static/css/main.afa9f609.chunk.css",
-    "static/js/main.b4cbf155.chunk.js"
+    "static/js/main.5782e818.chunk.js"
   ]
 }
