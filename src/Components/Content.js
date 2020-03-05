@@ -26,7 +26,7 @@ export const Content = ({isDesktop}) => {
     arrows: true,
     customPaging: i => (
       <div>
-        {i}<span style={{marginLeft: "auto", fontSize: '24px'}}>&nbsp;из&nbsp;5</span>
+        {i+1}<span style={{marginLeft: "auto", fontSize: '24px'}}>&nbsp;из&nbsp;5</span>
       </div>
     )
   };
