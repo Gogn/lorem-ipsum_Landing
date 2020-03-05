@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lorem-ipsum_Landing/precache-manifest.131d5b4dca3785857935ab6e9c25e6f6.js"
+  "/lorem-ipsum_Landing/precache-manifest.004309461077c8953cf823a72b9b6587.js"
 );
 
 self.addEventListener('message', (event) => {
