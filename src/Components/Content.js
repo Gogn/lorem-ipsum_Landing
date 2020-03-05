@@ -105,15 +105,15 @@ export const Content = ({isDesktop}) => {
                 </div>
 
                 <div>
-                  <p><h2>3</h2></p>
+                  <h2>3</h2>
                 </div>
 
                 <div>
-                  <p><h2>Hire me</h2></p>
+                  <h2>4</h2>
                 </div>
 
                 <div>
-                  <p><h2>Works like a charm</h2></p>
+                  <h2>Works like a charm</h2>
                 </div>
 
               </Slider>

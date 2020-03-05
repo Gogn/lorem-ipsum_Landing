@@ -23,7 +23,7 @@ export const Navbar = ({isDesktop, menu, setMenu}) => {
         <div className={cls.join(' ')}>
           <div className="logo">
             <a href="/">
-              <img src="/img/LOGO.png" alt="logo"/>
+              <img src="img/LOGO.png" alt="logo"/>
             </a>
           </div>
 
