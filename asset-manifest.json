@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/lorem-ipsum_landing/static/css/main.ef6c36dc.chunk.css",
+    "main.js": "/lorem-ipsum_landing/static/js/main.e262553e.chunk.js",
+    "main.js.map": "/lorem-ipsum_landing/static/js/main.e262553e.chunk.js.map",
+    "runtime-main.js": "/lorem-ipsum_landing/static/js/runtime-main.d9cbddad.js",
+    "runtime-main.js.map": "/lorem-ipsum_landing/static/js/runtime-main.d9cbddad.js.map",
+    "static/css/2.59ca64ee.chunk.css": "/lorem-ipsum_landing/static/css/2.59ca64ee.chunk.css",
+    "static/js/2.0d46bea9.chunk.js": "/lorem-ipsum_landing/static/js/2.0d46bea9.chunk.js",
+    "static/js/2.0d46bea9.chunk.js.map": "/lorem-ipsum_landing/static/js/2.0d46bea9.chunk.js.map",
+    "index.html": "/lorem-ipsum_landing/index.html",
+    "precache-manifest.f9564238e41dcb2c851423f5238ef257.js": "/lorem-ipsum_landing/precache-manifest.f9564238e41dcb2c851423f5238ef257.js",
+    "service-worker.js": "/lorem-ipsum_landing/service-worker.js",
+    "static/css/2.59ca64ee.chunk.css.map": "/lorem-ipsum_landing/static/css/2.59ca64ee.chunk.css.map",
+    "static/css/main.ef6c36dc.chunk.css.map": "/lorem-ipsum_landing/static/css/main.ef6c36dc.chunk.css.map",
+    "static/js/2.0d46bea9.chunk.js.LICENSE.txt": "/lorem-ipsum_landing/static/js/2.0d46bea9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/lorem-ipsum_landing/static/media/bebasneueregular.a7c6c96b.woff2",
+    "static/media/slick-theme.css": "/lorem-ipsum_landing/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9cbddad.js",
+    "static/css/2.59ca64ee.chunk.css",
+    "static/js/2.0d46bea9.chunk.js",
+    "static/css/main.ef6c36dc.chunk.css",
+    "static/js/main.e262553e.chunk.js"
+  ]
+}
