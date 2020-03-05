@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88faf13fe817de79956b7c0c3060f990",
+    "revision": "41135fddb8601a22f210c257152f1f3b",
     "url": "/lorem-ipsum_Landing/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lorem-ipsum_Landing/static/css/2.d69ff295.chunk.css"
   },
   {
-    "revision": "5e1f9e4b2c9e63463270",
-    "url": "/lorem-ipsum_Landing/static/css/main.b9d28472.chunk.css"
+    "revision": "938a79aa731d03d33d09",
+    "url": "/lorem-ipsum_Landing/static/css/main.a5f04324.chunk.css"
   },
   {
     "revision": "eccd5d35d2b910736885",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lorem-ipsum_Landing/static/js/2.5776a84e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e1f9e4b2c9e63463270",
+    "revision": "938a79aa731d03d33d09",
     "url": "/lorem-ipsum_Landing/static/js/main.0ee649a2.chunk.js"
   },
   {
