@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0591c765073794c4a76cb0336b63342",
+    "revision": "15d1304e2c6cdf4944e9516b875a2a8e",
     "url": "/lorem-ipsum_Landing/index.html"
   },
   {
-    "revision": "15d1476ab39319fc29f9",
+    "revision": "eed6d929aef80df12c81",
     "url": "/lorem-ipsum_Landing/static/css/2.d69ff295.chunk.css"
   },
   {
-    "revision": "932f958784aa52b9c7ef",
+    "revision": "19d6361cad736d4b86f2",
     "url": "/lorem-ipsum_Landing/static/css/main.afa9f609.chunk.css"
   },
   {
-    "revision": "15d1476ab39319fc29f9",
-    "url": "/lorem-ipsum_Landing/static/js/2.1dc7980e.chunk.js"
+    "revision": "eed6d929aef80df12c81",
+    "url": "/lorem-ipsum_Landing/static/js/2.cefb31cf.chunk.js"
   },
   {
     "revision": "fd08bcbce45d2346ab6c08ee85d5eb50",
-    "url": "/lorem-ipsum_Landing/static/js/2.1dc7980e.chunk.js.LICENSE.txt"
+    "url": "/lorem-ipsum_Landing/static/js/2.cefb31cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "932f958784aa52b9c7ef",
-    "url": "/lorem-ipsum_Landing/static/js/main.21a26a59.chunk.js"
+    "revision": "19d6361cad736d4b86f2",
+    "url": "/lorem-ipsum_Landing/static/js/main.b4cbf155.chunk.js"
   },
   {
     "revision": "90d674f7acc17122399e",
